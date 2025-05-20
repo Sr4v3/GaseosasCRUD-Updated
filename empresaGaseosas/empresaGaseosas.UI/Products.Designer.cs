@@ -327,6 +327,7 @@
             IntProductId.Name = "IntProductId";
             IntProductId.Size = new Size(231, 31);
             IntProductId.TabIndex = 26;
+            IntProductId.KeyPress += IntProductId_KeyPress;
             // 
             // BtnConsultar
             // 

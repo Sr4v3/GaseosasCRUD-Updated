@@ -1,12 +1,120 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|c:\\users\\juans\\downloads\\empresagaseosas\\empresagaseosas\\empresagaseosas.ui\\employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|solutionrelative:empresagaseosas.ui\\employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|c:\\users\\juans\\downloads\\empresagaseosas\\empresagaseosas\\empresagaseosas.ui\\employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|solutionrelative:empresagaseosas.ui\\employeemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|c:\\users\\juans\\downloads\\empresagaseosas\\empresagaseosas\\empresagaseosas.ui\\employeemanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|solutionrelative:empresagaseosas.ui\\employeemanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|c:\\users\\juans\\downloads\\empresagaseosas\\empresagaseosas\\empresagaseosas.ui\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|solutionrelative:empresagaseosas.ui\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|c:\\users\\juans\\downloads\\empresagaseosas\\empresagaseosas\\empresagaseosas.ui\\products.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|solutionrelative:empresagaseosas.ui\\products.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|c:\\users\\juans\\downloads\\empresagaseosas\\empresagaseosas\\empresagaseosas.ui\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9471A660-1F25-BB86-76B9-00AD25815382}|empresaGaseosas.UI\\empresaGaseosas.UI.csproj|solutionrelative:empresagaseosas.ui\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Products.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\Products.cs",
+              "RelativeDocumentMoniker": "empresaGaseosas.UI\\Products.cs",
+              "ToolTip": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\Products.cs [Design]",
+              "RelativeToolTip": "empresaGaseosas.UI\\Products.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:22:21.306Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\Products.Designer.cs",
+              "RelativeDocumentMoniker": "empresaGaseosas.UI\\Products.Designer.cs",
+              "ToolTip": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\Products.Designer.cs",
+              "RelativeToolTip": "empresaGaseosas.UI\\Products.Designer.cs",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAUwEcBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:22:04.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\Products.cs",
+              "RelativeDocumentMoniker": "empresaGaseosas.UI\\Products.cs",
+              "ToolTip": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\Products.cs",
+              "RelativeToolTip": "empresaGaseosas.UI\\Products.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAALUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:21:43.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeManagement.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\EmployeeManagement.Designer.cs",
+              "RelativeDocumentMoniker": "empresaGaseosas.UI\\EmployeeManagement.Designer.cs",
+              "ToolTip": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\EmployeeManagement.Designer.cs",
+              "RelativeToolTip": "empresaGaseosas.UI\\EmployeeManagement.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T23:18:59.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeManagement.cs",
+              "DocumentMoniker": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\EmployeeManagement.cs",
+              "RelativeDocumentMoniker": "empresaGaseosas.UI\\EmployeeManagement.cs",
+              "ToolTip": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\EmployeeManagement.cs",
+              "RelativeToolTip": "empresaGaseosas.UI\\EmployeeManagement.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAWwN4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:59:27.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\EmployeeManagement.cs",
+              "RelativeDocumentMoniker": "empresaGaseosas.UI\\EmployeeManagement.cs",
+              "ToolTip": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.UI\\EmployeeManagement.cs [Design]",
+              "RelativeToolTip": "empresaGaseosas.UI\\EmployeeManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:59:20.796Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

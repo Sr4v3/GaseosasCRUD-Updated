@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("empresaGaseosas.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01794df6b8c534baa74ba09a1ac153f3772c8727")]
 [assembly: System.Reflection.AssemblyProductAttribute("empresaGaseosas.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("empresaGaseosas.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -144,7 +144,7 @@ namespace empresaGaseosas.UI
         {
             Result = false;
 
-            
+
             if (string.IsNullOrEmpty(IntEmployeeId.Text) || string.IsNullOrEmpty(TxtDocNumber.Text) || string.IsNullOrEmpty(TxtEmployeeName.Text) ||
                 string.IsNullOrEmpty(TxtEmployeeLName.Text) || string.IsNullOrEmpty(TxtEmployeeMail.Text) || string.IsNullOrEmpty(TxtEmployeePhone.Text) ||
                    string.IsNullOrEmpty(TxtEmployeeHiring.Text) || CBDocumentType.Text == "--Seleccionar--" || CBWorkArea.Text == "--Seleccionar--" || CBEducationLevel.Text == "--Seleccionar--" ||
@@ -154,7 +154,7 @@ namespace empresaGaseosas.UI
                 MessageBox.Show("Valide los valores ingresados:" + Environment.NewLine +
                 "Todos los campos son obligatorios" + Environment.NewLine + "Debe seleccionar un elemento de la lista diferente a 'Seleccionar'" + Environment.NewLine +
                 "Las dos contraseñas deben coincidir", "Error al Ingresar Empleado", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    
+
             }
             else
             {
@@ -187,8 +187,8 @@ namespace empresaGaseosas.UI
                     {
 
                         MessageBox.Show(
-                                "Ya existe un empleado con ese ID. Por favor elige otro o actualiza el actual.",
-                                "Clave duplicada",
+                                "Ya existe un empleado con ese ID o Email. Por favor elige otro o actualiza el actual.",
+                                "Clave o Email Duplicado",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error
                             );
@@ -217,6 +217,14 @@ namespace empresaGaseosas.UI
             if (e.KeyChar == (char)13)
             {
                 BtnIngresar_Click_1(sender, e);
+            }
+        }
+
+        private void IntEmployeeId_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }
