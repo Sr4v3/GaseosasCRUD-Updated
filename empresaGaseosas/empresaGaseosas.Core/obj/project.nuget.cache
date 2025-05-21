@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qebtKdWfV9s=",
+  "dgSpecHash": "H60Q1QlQJT4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\juans\\Downloads\\empresaGaseosas\\empresaGaseosas\\empresaGaseosas.Core\\empresaGaseosas.Core.csproj",
+  "projectFilePath": "C:\\Users\\juans\\Desktop\\Elementos\\Universidad\\EAFIT\\Ingeniería de Sistemas\\2025-1 (Cuarto Semestre)\\Base de Datos\\Entrega final\\secondVersion\\empresaGaseosas\\empresaGaseosas.Core\\empresaGaseosas.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juans\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",

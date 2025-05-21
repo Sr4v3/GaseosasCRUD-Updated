@@ -187,8 +187,9 @@ namespace empresaGaseosas.UI
                     {
 
                         MessageBox.Show(
-                                "Ya existe un empleado con ese ID o Email. Por favor elige otro o actualiza el actual.",
-                                "Clave o Email Duplicado",
+                                "Verifique los valores." + Environment.NewLine + Environment.NewLine + "Ya existe un empleado con ese ID, ese Número de Documento, ese Correo o esa Contraseña." +
+                                Environment.NewLine + Environment.NewLine + "Por favor elija otros valores o actualice el empleado con el mismo ID.",
+                                "Valores Duplicados",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error
                             );
@@ -198,12 +199,32 @@ namespace empresaGaseosas.UI
 
                 else if (Accion == 2)
                 {
-                    Result = InstInsertar.ActualizarEmpleado(ValuesInsert);
+
+                    try
+                    {
+                        Result = InstInsertar.ActualizarEmpleado(ValuesInsert);
+                    }
+                    catch (MySqlException ex)
+                    {
+
+                        MessageBox.Show(
+                                "Verifique los valores." + Environment.NewLine + Environment.NewLine + "Ya existe un empleado con ese Número de Documento, ese Correo o esa Contraseña." +
+                                Environment.NewLine + Environment.NewLine + "Por favor elija otros valores antes de actualizar.",
+                                "Valores Duplicados",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error
+                            );
+                        Result = false;
+
+                    }
                 }
             }
             return Result;
 
         }
+
+
+
         private void TxtPassword_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
@@ -211,6 +232,8 @@ namespace empresaGaseosas.UI
                 BtnIngresar_Click_1(sender, e);
             }
         }
+
+
 
         private void TxtPassword2_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -220,12 +243,15 @@ namespace empresaGaseosas.UI
             }
         }
 
-        private void IntEmployeeId_KeyPress(object sender, KeyPressEventArgs e)
+
+
+        private void IntEmployeeId_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
             }
         }
+
     }
 }

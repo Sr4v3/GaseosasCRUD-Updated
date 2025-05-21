@@ -164,6 +164,8 @@ namespace empresaGaseosas.UI
 
         }
 
+
+
         private void TxtProductValue_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ','))
@@ -177,12 +179,14 @@ namespace empresaGaseosas.UI
             }
         }
 
-        private void IntProductId_KeyPress(object sender, KeyPressEventArgs e)
+
+        private void IntProductId_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
                 e.Handled = true;
             }
         }
+
     }
 }

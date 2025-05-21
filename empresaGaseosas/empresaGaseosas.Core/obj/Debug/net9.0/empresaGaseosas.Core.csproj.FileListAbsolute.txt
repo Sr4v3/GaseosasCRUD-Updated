@@ -37,16 +37,3 @@ C:\Users\juans\Desktop\Elementos\Universidad\EAFIT\Ingeniería de Sistemas\2025-
 C:\Users\juans\Desktop\Elementos\Universidad\EAFIT\Ingeniería de Sistemas\2025-1 (Cuarto Semestre)\Base de Datos\Entrega final\secondVersion\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\refint\empresaGaseosas.Core.dll
 C:\Users\juans\Desktop\Elementos\Universidad\EAFIT\Ingeniería de Sistemas\2025-1 (Cuarto Semestre)\Base de Datos\Entrega final\secondVersion\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.pdb
 C:\Users\juans\Desktop\Elementos\Universidad\EAFIT\Ingeniería de Sistemas\2025-1 (Cuarto Semestre)\Base de Datos\Entrega final\secondVersion\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\ref\empresaGaseosas.Core.dll
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\bin\Debug\net9.0\empresaGaseosas.Core.deps.json
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\bin\Debug\net9.0\empresaGaseosas.Core.dll
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\bin\Debug\net9.0\empresaGaseosas.Core.pdb
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.csproj.AssemblyReference.cache
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.AssemblyInfoInputs.cache
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.AssemblyInfo.cs
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.csproj.CoreCompileInputs.cache
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.sourcelink.json
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.dll
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\refint\empresaGaseosas.Core.dll
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\empresaGaseosas.Core.pdb
-C:\Users\juans\Downloads\empresaGaseosas\empresaGaseosas\empresaGaseosas.Core\obj\Debug\net9.0\ref\empresaGaseosas.Core.dll

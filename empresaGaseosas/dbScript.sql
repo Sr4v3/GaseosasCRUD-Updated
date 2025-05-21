@@ -57,7 +57,6 @@ CREATE TABLE Clientes (
   tipoDoc INT NOT NULL,
   numeroDoc VARCHAR(15) NOT NULL,
   nombreCliente VARCHAR(50) NOT NULL,
-  contrasenaCliente VARCHAR(45) NOT NULL,
   apellidoCliente VARCHAR(50) NOT NULL,
   ciudad INT NOT NULL,
   direccion VARCHAR(100) NOT NULL,
@@ -71,8 +70,7 @@ CREATE TABLE Clientes (
   CONSTRAINT fk_tipoCliente
     FOREIGN KEY (tipoCliente) REFERENCES Tipos_Tiendas(idTienda),
   -- Restricción UNIQUE
-  UNIQUE (tipoDoc, numeroDoc),
-  UNIQUE (contrasenaCliente)
+  UNIQUE (tipoDoc, numeroDoc)
 );
 
 CREATE TABLE Empleados (
@@ -99,8 +97,7 @@ CREATE TABLE Empleados (
     FOREIGN KEY (estadoEmpleado) REFERENCES estados(idEstado),
   -- Restricción UNIQUE
   UNIQUE (tipoDoc, numeroDoc),
-  UNIQUE(correoEmpleado),
-  UNIQUE(contrasenaEmpleado)
+  UNIQUE(correoEmpleado)
 );
 
 CREATE TABLE Flota_Vehiculos (

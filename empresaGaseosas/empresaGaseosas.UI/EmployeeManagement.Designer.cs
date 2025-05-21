@@ -125,7 +125,7 @@
             IntEmployeeId.Name = "IntEmployeeId";
             IntEmployeeId.Size = new Size(76, 31);
             IntEmployeeId.TabIndex = 44;
-            IntEmployeeId.KeyPress += IntEmployeeId_KeyPress;
+            IntEmployeeId.KeyPress += IntEmployeeId_KeyPress_1;
             // 
             // label4
             // 
