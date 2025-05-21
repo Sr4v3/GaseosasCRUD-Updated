@@ -97,7 +97,8 @@ CREATE TABLE Empleados (
     FOREIGN KEY (estadoEmpleado) REFERENCES estados(idEstado),
   -- Restricción UNIQUE
   UNIQUE (tipoDoc, numeroDoc),
-  UNIQUE(correoEmpleado)
+  UNIQUE(correoEmpleado),
+  UNIQUE(contrasenaEmpleado)
 );
 
 CREATE TABLE Flota_Vehiculos (
